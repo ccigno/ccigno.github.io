@@ -1,96 +1,52 @@
-body, html {
-    height: 100%;
-  }
-  .bg {
-    /* The image used */
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .wrapper{
-      max-width: 800px;
-      position: relative;
-      margin-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
   }
   
-  .staticWords{
-      margin: 0;
-      text-align: left;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
-    color: #000000;
-    display: inline; 
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: #23252b;
   }
   
-  .rotatingWords {
-      display: inline;
-      text-indent: 10px;
+  .text-muted {
+    color: #b6db55;
   }
   
-  .rotatingWords span{
-      position: absolute;
-      opacity: 0;
-      overflow: hidden;
-      max-width: 100%;
-      color: #00ebff;
-      animation: rotateWords 14s linear infinite 0s;
+  .text-thin {
+    font-weight: 100;
   }
   
-  .rotatingWords span:nth-child(2) { 
-      animation-delay: 2s; 
-      color: #0fe56a;
-  }
-  .rotatingWords span:nth-child(3) { 
-      animation-delay: 4s; 
-      color: #3f3fbc;
-  }
-  .rotatingWords span:nth-child(4) { 
-      animation-delay: 6s; 
-      color: #d148b1;
-  }
-  .rotatingWords span:nth-child(5) { 
-      animation-delay: 8s; 
-      color: #0fe56a;
-  }
-  .rotatingWords span:nth-child(6) {  
-      animation-delay: 10s; 
-      color: #d3d316;
-  }
-  .rotatingWords span:nth-child(7) {  
-      animation-delay: 12s; 
-      color: #d148b1;
+  .title-super {
+    font-size: 60px;
   }
   
-  @keyframes rotateWords {
-      0% { opacity: 0; animation-timing-function: ease-in;transform: translateY(-10px); }
-      10% { opacity: 0; transform: translateY(-10px); }
-      20% { opacity: 1; transform: translateY(0px) }
-      25% { opacity: 1; transform: translateY(0px) }
-      28% { opacity: 0; transform: translateY(10px)}
-      100% { opacity: 0; }
+  .title-logo {
+    margin-top: 20px;
   }
   
-  
-  
-  #intro{
-   background-color: rgba(0, 0, 0, 0.24);   
-      
+  main {
+    background-color: #13151a;
+    border-style: solid;
+    border-top: none;
+    border-color: #13151a;
+    border-width: 20px !important;
   }
   
+  .navbar {
+    background-color: #13151a;
+    border-color: #13151a;
+  }
   
+  hr {
+    border-top: 5px solid #b6db55;
+  }
   
-  
-  
-  
-  
-  
-  
-  
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    color: #b6db55;
+  }
