@@ -1,52 +1,78 @@
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Staatliches', cursive;
+    background-color:#e1e3e6;
+  }
+  #nav ul{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    margin:0;
+    padding:0;
+    border: 1vh solid black;
+    background-color: #6a96d9;}
+  #nav a {
+    text-decoration: none;
+    color:black;
+    padding:3vh;
+    display: flex;
+    margin:0;
+    justify-content: space-around;
+  }
+  #home, #projects, #skills, #contact{
+    tansition: 0.5s ease;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px #6a96d9;
+  }
+  #home:hover, #projects:hover, #skills:hover, #contact:hover{
+   background: rgba(0,0,0,0);
+      color: #ffffff ;
+      box-shadow: inset 0 0 0 3px #ffffff;
+  }
+   #bop{
+    display: flex;
+    direction: row;
+    justify-content: center;
+     margin-top: 50px;
+     color:#6a96d9;}
+  #htmlFlexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #tribute, #resume, #business{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#6a96d9;
+  }
+  #AC{
+    width: 27vh;
+    height: 27vh;
+    border-radius: 20%
+  }
+  #Wilt{
+    width: 27vh;
+    height: 27vh;
+    border-radius: 20%
+  }
+  #buss{
+    width: 27vh;
+    height: 27vh;
+    border-radius: 20%;
+  }
+  #jsbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #proj1, #proj2{
+    background-color:black;
+    width: 27vh;
+    height: 27vh;
+    border-radius:20%;
   }
   
-  body {
-    font-family: 'Lato', sans-serif;
-    background-color: #23252b;
-  }
   
-  .text-muted {
-    color: #b6db55;
-  }
-  
-  .text-thin {
-    font-weight: 100;
-  }
-  
-  .title-super {
-    font-size: 60px;
-  }
-  
-  .title-logo {
-    margin-top: 20px;
-  }
-  
-  main {
-    background-color: #13151a;
-    border-style: solid;
-    border-top: none;
-    border-color: #13151a;
-    border-width: 20px !important;
-  }
-  
-  .navbar {
-    background-color: #13151a;
-    border-color: #13151a;
-  }
-  
-  hr {
-    border-top: 5px solid #b6db55;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  p {
-    color: #b6db55;
-  }
